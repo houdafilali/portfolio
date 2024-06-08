@@ -1,4 +1,5 @@
-<html xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:schema="http://schema.org/" xmlns:doac="http://ramonantonio.net/doac/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" lang="fr" xml:lang="fr" version="XHTML+RDFa 1.0">
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:schema="http://schema.org/" xmlns:doac="http://ramonantonio.net/doac/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" version="XHTML+RDFa 1.0">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
@@ -12,62 +13,125 @@
 <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body typeof="foaf:Person" about="#">
-<header><nav><ul>
-<li><a property="dc:title" href="index.html"><strong>Accueil</strong></a></li>
-<li><a property="dc:title" href="#"><strong>CV</strong></a></li>
-<li><a href="../ar/page.html" id="ar"><img class="fit-picture" src="../img/arabic.png" alt="arabic flag" width="20" height="20"></a></li>
-<li><a href="../en/page.html" id="en"><img class="fit-picture" src="../img/usa.png" alt="American flag" width="20" height="20"></a></li>
-</ul></nav></header><div class="center" id="me">
-<h2 property="dc:subject"><u>A propos de moi:</u></h2>
-<img src="../img/me.jpg" alt="moi" style="width:200px;height:200px;border-radius:50%;"><p> Nom Prenom: <span property="foaf:firstName">Filali</span><span property="foaf:lastName">Houda</span></p>
-<p>Age:<span property="foaf:age">22</span> ans.</p>
-<p> Mon email:<a href="mailto:hfilali428@gmail.com" rel="foaf:mbox">hfilali428@gmail.com</a></p>
-<p> Je suis étudiante en 2 éme année cycle ingénieur informatique en apprentissage. </p>
+<header>
+    <nav>
+        <ul>
+            <li><a property="dc:title" href="index.html"><strong>Accueil</strong></a></li>
+            <li><a property="dc:title" href="#"><strong>CV</strong></a></li>
+            <li><a href="../ar/page.html" id="ar"><img class="fit-picture" src="../img/arabic.png" alt="arabic flag" width="20" height="20"></a></li>
+            <li><a href="../en/page.html" id="en"><img class="fit-picture" src="../img/usa.png" alt="American flag" width="20" height="20"></a></li>
+        </ul>
+    </nav>
+</header>
+<div class="center" id="me">
+    <h2 property="dc:subject"><u>A propos de moi:</u></h2>
+    <img src="../img/me.jpg" alt="moi" style="width:200px;height:200px;border-radius:50%;">
+    <p>Nom Prenom: <span property="foaf:firstName">Houda</span> <span property="foaf:lastName">Filali</span></p>
+    <p>Age: <span property="foaf:age">22</span> ans.</p>
+    <p>Mon email: <a href="mailto:hfilali428@gmail.com" rel="foaf:mbox">hfilali428@gmail.com</a></p>
+    <p>Je suis étudiante en 2ème année cycle ingénieur informatique en apprentissage.</p>
 </div>
-<br><br><div class="center">
-<h2 property="dc:subject"><u>Parcours scolaire</u></h2>
-<p typeof="schema:EducationalOccupationalCredential" property="schema:educationLevel" content="Bachelor's degree"><img class="fit-picture" src="../img/sup.png" alt="sup galilee" width="50" height="25"><b> 2021 - en cours : </b><span property="foaf:name">cycle ingenieur informatique </span> à
-  <span property="schema:alumniOf" typeof="foaf:School"><span property="foaf:name">Sup Galilée</span><span property="schema:address" typeof="schema:PostalAddress">
-      à Villetaneuse-France</span></span></p>
-<p><img class="fit-picture" src="../img/est.jpg" alt="est" width="80" height="25"><b> 2020 - 2021 : </b><span property="schema:educationLevel" content="Bachelor's degree"></span><span property="foaf:name">DUT en developpemnt d'application informatique </span>
-  à
-  <span property="schema:alumniOf" typeof="foaf:School"><span property="foaf:name">Ecole Superieure de Technologie</span>
-    à
-    <span property="schema:address" typeof="schema:PostalAddress">Oujda-Maroc</span></span></p>
-
-<p><b>2017 - 2018 : </b><span property="schema:educationLevel" content="Bac"></span><span property="foaf:name">Baccalaureat science mathematiques </span>
-  à
-  <span property="schema:alumniOf" typeof="foaf:School"><span property="schema:address" typeof="schema:PostalAddress"><span property="schema:addressLocality">Guercif-Maroc</span></span></span></p>
+<br><br>
+<div class="center">
+    <h2 property="dc:subject"><u>Parcours scolaire</u></h2>
+    <p typeof="schema:EducationalOccupationalCredential" property="schema:educationLevel" content="Bachelor's degree">
+        <img class="fit-picture" src="../img/sup.png" alt="sup galilee" width="50" height="25">
+        <b>2021 - en cours :</b> <span property="foaf:name">cycle ingénieur informatique</span> à
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="foaf:name">Sup Galilée</span>
+            <span property="schema:address" typeof="schema:PostalAddress">à Villetaneuse-France</span>
+        </span>
+    </p>
+    <p><img class="fit-picture" src="../img/est.jpg" alt="est" width="80" height="25">
+        <b>2020 - 2021 :</b> <span property="schema:educationLevel" content="Bachelor's degree"></span> 
+        <span property="foaf:name">DUT en développement d'application informatique</span> à
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="foaf:name">Ecole Supérieure de Technologie</span> à
+            <span property="schema:address" typeof="schema:PostalAddress">Oujda-Maroc</span>
+        </span>
+    </p>
+    <p><b>2017 - 2018 :</b> <span property="schema:educationLevel" content="Bac"></span> 
+        <span property="foaf:name">Baccalauréat sciences mathématiques</span> à
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="schema:address" typeof="schema:PostalAddress">
+                <span property="schema:addressLocality">Guercif-Maroc</span>
+            </span>
+        </span>
+    </p>
 </div>
-<br><br><div class="center">
-<h2 property="foaf:name"><u>Compétences</u></h2>
-<p typeof="schema:DefinedTerm"><b property="schema:name">Developpement web:</b><span property="schema:hasDefinedTerm"><span property="schema:name">HTML5</span>, <span property="schema:name">CSS3</span></span></p>
-<p typeof="schema:DefinedTerm"><b property="schema:name">languagages:</b><span property="schema:hasDefinedTerm"><span property="schema:name">C</span>, <span property="schema:name">C++</span>, <span property="schema:name">JAVA</span>, <span property="schema:name">Javascript</span>, <span property="schema:name">Python</span>, <span property="schema:name">MATLAB</span></span></p>
-<p typeof="schema:DefinedTerm"><b property="schema:name">Web semantique:</b><span property="schema:hasDefinedTerm"><span property="schema:name">XML</span>, <span property="schema:name">DTD</span>, <span property="schema:name">XSD</span>, <span property="schema:name">XSLT/XSL</span>, <span property="schema:name">RDF/RDFa</span></span></p>
-<p typeof="schema:DefinedTerm"><b property="schema:name">Bases de donnees:</b><span property="schema:hasDefinedTerm"><span property="schema:name">SQL</span>, <span property="schema:name">oracle</span>, <span property="schema:name">MySQL</span>, <span property="schema:name">PL/SQL</span></span></p>
+<br><br>
+<div class="center">
+    <h2 property="foaf:name"><u>Compétences</u></h2>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Développement web :</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">HTML5</span>, <span property="schema:name">CSS3</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Langages :</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">C</span>, <span property="schema:name">C++</span>, <span property="schema:name">JAVA</span>, 
+            <span property="schema:name">Javascript</span>, <span property="schema:name">Python</span>, <span property="schema:name">MATLAB</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Web sémantique :</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">XML</span>, <span property="schema:name">DTD</span>, <span property="schema:name">XSD</span>, 
+            <span property="schema:name">XSLT/XSL</span>, <span property="schema:name">RDF/RDFa</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Bases de données :</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">SQL</span>, <span property="schema:name">Oracle</span>, <span property="schema:name">MySQL</span>, 
+            <span property="schema:name">PL/SQL</span>
+        </span>
+    </p>
 </div>
-<br><br><div class="center">
-<h2><u>Langages</u></h2>
-<p typeof="schema:Language"><b property="schema:name">Francais</b>: 
-      <span property="schema:proficiencyLevel">bilingue</span></p>
-<p typeof="schema:Language"><b property="schema:name">Anglais</b>: 
-      <span property="schema:proficiencyLevel">bilingue</span></p>
-<p typeof="schema:Language"><b property="schema:name">Arabe</b>: 
-      <span property="schema:proficiencyLevel">maternelle</span></p>
+<br><br>
+<div class="center">
+    <h2><u>Langues</u></h2>
+    <p typeof="schema:Language">
+        <b property="schema:name">Français :</b> 
+        <span property="schema:proficiencyLevel">bilingue</span>
+    </p>
+    <p typeof="schema:Language">
+        <b property="schema:name">Anglais :</b> 
+        <span property="schema:proficiencyLevel">bilingue</span>
+    </p>
+    <p typeof="schema:Language">
+        <b property="schema:name">Arabe :</b> 
+        <span property="schema:proficiencyLevel">maternelle</span>
+    </p>
 </div>
-<br><br><div class="center" typeof="schema:Organization">
-<h2><u>Expériences</u></h2>
-<img class="fit-picture" src="../img/ird.png" alt="IRD" width="100" height="50" property="schema:image"><p typeof="schema:WorkExperience"><b property="schema:title">Apprentie ingénieure informatique</b> (10-2022 - Encours)
-      <p><i property="schema:employer" typeof="schema:Organization"><span property="schema:name">Institut de Recherche pour le Développement IRD-UMMisco</span> - <span property="schema:location" typeof="schema:Place"><span property="schema:name">France</span></span></i></p><ul>
-<li property="schema:description">Developpement d'une application web pour l'extraction des données des fichiers ECG soit format xml ou pdf et intégrer des modèles IA pour la compréhension, la prédiction et la détection des maladies cardiovasculaires.</li>
-</ul></p>
+<br><br>
+<div class="center" typeof="schema:Organization">
+    <h2><u>Expériences</u></h2>
+    <img class="fit-picture" src="../img/ird.png" alt="IRD" width="100" height="50" property="schema:image">
+    <p typeof="schema:WorkExperience">
+        <b property="schema:title">Apprentie ingénieure informatique</b> (10-2022 - En cours)
+        <p>
+            <i property="schema:employer" typeof="schema:Organization">
+                <span property="schema:name">Institut de Recherche pour le Développement IRD-UMMisco</span> - 
+                <span property="schema:location" typeof="schema:Place">
+                    <span property="schema:name">France</span>
+                </span>
+            </i>
+        </p>
+        <ul>
+            <li property="schema:description">Développement d'une application web pour l'extraction des données des fichiers ECG soit en format xml ou pdf et intégration de modèles IA pour la compréhension, la prédiction et la détection des maladies cardiovasculaires.</li>
+        </ul>
+    </p>
 </div>
-<br><br><div class="center">
-<h2><u>Loisirs</u></h2>
-<ul>
-<p property="schema:hasInterest"><span property="schema:name">Ecriture</span></p>
-<p property="schema:hasInterest"><span property="schema:name">Voyage</span></p>
-</ul>
+<br><br>
+<div class="center">
+    <h2><u>Loisirs</u></h2>
+    <ul>
+        <p property="schema:hasInterest"><span property="schema:name">Écriture</span></p>
+        <p property="schema:hasInterest"><span property="schema:name">Voyage</span></p>
+    </ul>
 </div>
 </body>
 </html>
