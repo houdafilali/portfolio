@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="portfolio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="lan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="informations">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nom" type="xs:string" />
+                    <xs:element name="prenom" type="xs:string" />
+                    <xs:element name="sexe" type="xs:string" />
+                    <xs:element name="age" type="xs:unsignedByte" />
+                    <xs:element name="titre" type="xs:string" />
+                    <xs:element name="mail" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="parcours_scolaire">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="formation">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="intitule" type="xs:string" />
+                          <xs:element minOccurs="0" name="ecole" type="xs:string" />
+                          <xs:element name="lieu" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="dateDebut" type="xs:string" use="required" />
+                        <xs:attribute name="dateFin" type="xs:string" use="required" />
+                        <xs:attribute name="mention" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="competences">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="categorie">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="1" name="intitule" type="xs:string" />
+                          <xs:element maxOccurs="unbounded" name="competence" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="intitule" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="langues">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="langue">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="niveau" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="experiences">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="experience">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="intitule" type="xs:string" />
+                          <xs:element name="entreprise">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="localisation" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="dateDebut" type="xs:string" use="required" />
+                        <xs:attribute name="dateFin" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="missions">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="mission" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="loisirs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="loisir" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="loisirs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="loisir" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="langue" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
