@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
+<portfolio>
+	<lan langue="fr">
+		<informations>
+			<nom>Filali</nom>
+			<prenom>Houda</prenom>
+			<sexe>Femme</sexe>
+			<age>22</age>
+			<titre>Apprentie ingénieure informatique</titre>
+			<mail>hfilali428@gmail.com</mail>
+		</informations>
+		<parcours_scolaire>
+			<formation id="1" dateDebut="2017" dateFin="2018" mention="très bien">
+				<intitule>Baccalauréat sciences mathématiques</intitule>
+				<lieu>Guercif-Maroc</lieu>
+			</formation>
+			<formation id="2" dateDebut="2020" dateFin="2021" mention="bien">
+				<intitule>DUT en développement d'application informatique</intitule>
+				<ecole>Ecole Supérieure de Technologie</ecole>
+				<lieu>Oujda-Maroc</lieu>
+			</formation>
+			<formation id="3" dateDebut="2021" dateFin="en cours">
+				<intitule>Cycle ingénieur informatique</intitule>
+				<ecole>Sup Galilée</ecole>
+				<lieu>Villetaneuse-France</lieu>
+			</formation>
+		</parcours_scolaire>
+		<competences>
+			<categorie intitule="Développement web">
+				<competence>HTML5</competence>
+				<competence>CSS3</competence>
+			</categorie>
+			<categorie intitule="Langages">
+				<competence>C</competence>
+				<competence>C++</competence>
+				<competence>JAVA</competence>
+				<competence>Javascript</competence>
+				<competence>Python</competence>
+				<competence>MATLAB</competence>
+			</categorie>
+			<categorie intitule="Web sémantique">
+				<competence>XML</competence>
+				<competence>DTD</competence>
+				<competence>XSD</competence>
+				<competence>XSLT/XSL</competence>
+				<competence>RDF/RDFa</competence>
+			</categorie>
+			<categorie intitule="Bases de données">
+				<competence>SQL</competence>
+				<competence>Oracle</competence>
+				<competence>MySQL</competence>
+				<competence>PL/SQL</competence>
+			</categorie>
+		</competences>
+		<langues>
+			<langue niveau="bilingue">Français</langue>
+			<langue niveau="bilingue">Anglais</langue>
+			<langue niveau="maternelle">Arabe</langue>
+		</langues>
+		<experiences>
+			<experience dateDebut="10-2022" dateFin="en cours">
+				<intitule>Apprentie ingénieure informatique</intitule>
+				<entreprise localisation="France">Institut de Recherche pour le Développement IRD-UMMisco</entreprise>
+			</experience>
+			<missions>
+				<mission>Développement d'une application web pour l'extraction des données des fichiers ECG soit en format xml ou pdf et intégration de modèles IA pour la compréhension, la prédiction et la détection des maladies cardiovasculaires.</mission>
+			</missions>
+			<loisirs>
+				<loisir>Écriture</loisir>
+				<loisir>Voyage</loisir>
+			</loisirs>
+		</experiences>
+	</lan>
+	<lan langue="en">
+		<informations>
+			<nom>Filali</nom>
+			<prenom>Houda</prenom>
+			<sexe>Female</sexe>
+			<age>22</age>
+			<titre>Software Engineering Apprentice</titre>
+			<mail>hfilali428@gmail.com</mail>
+		</informations>
+		<parcours_scolaire>
+			<formation id="1" dateDebut="2017" dateFin="2018" mention="excellent">
+				<intitule>High School Diploma in Mathematics</intitule>
+				<lieu>Guercif, Morocco</lieu>
+			</formation>
+			<formation id="2" dateDebut="2020" dateFin="2021" mention="good">
+				<intitule>DUT in Application Development</intitule>
+				<ecole>Higher School of Technology</ecole>
+				<lieu>Oujda, Morocco</lieu>
+			</formation>
+			<formation id="3" dateDebut="2021" dateFin="current">
+				<intitule>Engineering Cycle in Computer Science</intitule>
+				<ecole>Sup Galilée</ecole>
+				<lieu>Villetaneuse, France</lieu>
+			</formation>
+		</parcours_scolaire>
+		<competences>
+			<categorie intitule="Web Development">
+				<competence>HTML5</competence>
+				<competence>CSS3</competence>
+			</categorie>
+			<categorie intitule="Languages">
+				<competence>C</competence>
+				<competence>C++</competence>
+				<competence>JAVA</competence>
+				<competence>Javascript</competence>
+				<competence>Python</competence>
+				<competence>MATLAB</competence>
+			</categorie>
+			<categorie intitule="Semantic Web">
+				<competence>XML</competence>
+				<competence>DTD</competence>
+				<competence>XSD</competence>
+				<competence>XSLT/XSL</competence>
+				<competence>RDF/RDFa</competence>
+			</categorie>
+			<categorie intitule="Databases">
+				<competence>SQL</competence>
+				<competence>Oracle</competence>
+				<competence>MySQL</competence>
+				<competence>PL/SQL</competence>
+			</categorie>
+		</competences>
+		<langues>
+			<langue niveau="bilingual">French</langue>
+			<langue niveau="bilingual">English</langue>
+			<langue niveau="native">Arabic</langue>
+		</langues>
+		<experiences>
+			<experience dateDebut="10-2022" dateFin="current">
+				<intitule>Software Engineering Apprentice</intitule>
+				<entreprise localisation="France">Institut de Recherche pour le Développement IRD-UMMisco</entreprise>
+			</experience>
+			<missions>
+				<mission>Developing a web application for extracting data from ECG files either in xml or pdf format and integrating AI models for understanding, predicting, and detecting cardiovascular diseases.</mission>
+			</missions>
+			<loisirs>
+				<loisir>Writing</loisir>
+				<loisir>Traveling</loisir>
+			</loisirs>
+		</experiences>
+	</lan>
+	<lan langue="ar">
+		<informations>
+			<nom>فيلاي</nom>
+			<prenom>هدى</prenom>
+			<sexe>أنثى</sexe>
+			<age>22</age>
+			<titre>متدربة في هندسة البرمجيات</titre>
+			<mail>hfilali428@gmail.com</mail>
+		</informations>
+		<parcours_scolaire>
+			<formation id="1" dateDebut="2017" dateFin="2018" mention="جيد جدا">
+				<intitule>بكالوريا في الرياضيات</intitule>
+				<lieو>جرسيف، المغرب</lieو>
+			</formation>
+			<formation id="2" dateDebut="2020" dateFin="2021" mention="جيد">
+				<intitule>دبلوم DUT في تطوير التطبيقات</intitule>
+				<ecole>المدرسة العليا للتكنولوجيا</ecole>
+				<lieو>وجدة، المغرب</lieو>
+			</formation>
+			<formation id="3" dateDebut="2021" dateFin="الحالي">
+				<intitule>دورة هندسة الكمبيوتر</intitule>
+				<ecole>سوب غاليليه</ecole>
+				<lieو>فيليتانوز، فرنسا</lieو>
+			</formation>
+		</parcours_scolaire>
+		<competences>
+			<categorie intitule="تطوير الويب">
+				<competence>HTML5</competence>
+				<competence>CSS3</competence>
+			</categorie>
+			<categorie intitule="اللغات">
+				<competence>C</competence>
+				<competence>C++</competence>
+				<competence>JAVA</competence>
+				<competence>Javascript</competence>
+				<competence>Python</competence>
+				<competence>MATLAB</competence>
+			</categorie>
+			<categorie intitule="الويب الدلالي">
+				<competence>XML</competence>
+				<competence>DTD</competence>
+				<competence>XSD</competence>
+				<competence>XSLT/XSL</competence>
+				<competence>RDF/RDFa</competence>
+			</categorie>
+			<categorie intitule="قواعد البيانات">
+				<competence>SQL</competence>
+				<competence>Oracle</competence>
+				<competence>MySQL</competence>
+				<competence>PL/SQL</competence>
+			</categorie>
+		</competences>
+		<langues>
+			<langue niveau="bilingual">الفرنسية</langue>
+			<langue niveau="bilingual">الإنجليزية</langue>
+			<langue niveau="native">العربية</langue>
+		</langues>
+		<experiences>
+			<experience dateDebut="10-2022" dateFin="الحالي">
+				<intitule>متدربة في هندسة البرمجيات</intitule>
+				<entreprise localisation="فرنسا">معهد البحث من أجل التنمية IRD-UMMisco</entreprise>
+			</experience>
+			<missions>
+				<mission>تطوير تطبيق ويب لاستخراج البيانات من ملفات ECG إما بتنسيق xml أو pdf ودمج نماذج الذكاء الاصطناعي لفهم الأمراض القلبية الوعائية والتنبؤ بها واكتشافها.</mission>
+			</missions>
+			<loisirs>
+				<loisir>الكتابة</loisir>
+				<loisir>السفر</loisir>
+			</loisirs>
+		</experiences>
+	</lan>
+</portfolio>
