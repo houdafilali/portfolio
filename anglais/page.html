@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:schema="http://schema.org/" xmlns:doac="http://ramonantonio.net/doac/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" version="XHTML+RDFa 1.0">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta content="en" property="dc:language">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Houda Filali">
+<meta name="keywords" content="cv, portfolio, semantic web">
+<link rel="alternate" hreflang="ar" href="../arabe/page.html">
+<link rel="alternate" hreflang="fr" href="../page.html">
+<title property="dc:title">Houda Filali Portfolio</title>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body typeof="foaf:Person" about="#">
+<header>
+    <nav>
+        <ul>
+            <li><a property="dc:title" href="index.html"><strong>Home</strong></a></li>
+            <li><a property="dc:title" href="#"><strong>Resume</strong></a></li>
+            <li><a href="../arabe/page.html" id="ar"><img class="logo" src="../img/arabic.png" alt="arabic flag"></a></li>
+            <li><a href="../francais/page.html" id="fr"><img class="logo" src="../img/images.png" alt="french flag"></a></li>
+        </ul>
+    </nav>
+</header>
+<div class="center" id="me">
+    <h2 property="dc:subject"><u>About Me:</u></h2>
+    <img src="../img/me.jpeg" alt="me" style="width:200px;height:200px;border-radius:50%;">
+    <p>Name: <span property="foaf:firstName">Houda</span> <span property="foaf:lastName">Filali</span></p>
+    <p>Age: <span property="foaf:age">22</span> years old.</p>
+    <p>Email: <a href="mailto:hfilali428@gmail.com" rel="foaf:mbox">hfilali428@gmail.com</a></p>
+    <p>I am a 2nd year computer engineering apprentice.</p>
+</div>
+<br><br>
+<div class="center">
+    <h2 property="dc:subject"><u>Education</u></h2>
+    <p typeof="schema:EducationalOccupationalCredential" property="schema:educationLevel" content="Bachelor's degree">
+        <img class="fit-picture" src="../img/sup.png" alt="sup galilee" width="50" height="25">
+        <b>2022 - present:</b> <span property="foaf:name">Engineering cycle in computer science</span> at
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="foaf:name">Sup Galilée</span>
+            <span property="schema:address" typeof="schema:PostalAddress">in Villetaneuse, France</span>
+        </span>
+    </p>
+    <p><img class="fit-picture" src="../img/est.jpg" alt="est" width="80" height="25">
+        <b>2020 - 2022:</b> <span property="schema:educationLevel" content="Bachelor's degree"></span> 
+        <span property="foaf:name">DUT in application development</span> at
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="foaf:name">Higher School of Technology</span> in
+            <span property="schema:address" typeof="schema:PostalAddress">Oujda, Morocco</span>
+        </span>
+    </p>
+    <p><b>2019:</b> <span property="schema:educationLevel" content="Bac"></span> 
+        <span property="foaf:name">High School Diploma in Mathematics</span> in
+        <span property="schema:alumniOf" typeof="foaf:School">
+            <span property="schema:address" typeof="schema:PostalAddress">
+                <span property="schema:addressLocality">Guercif, Morocco</span>
+            </span>
+        </span>
+    </p>
+</div>
+<br><br>
+<div class="center">
+    <h2 property="foaf:name"><u>Skills</u></h2>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Web Development:</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">HTML5</span>, <span property="schema:name">CSS3</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Languages:</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">C</span>, <span property="schema:name">C++</span>, <span property="schema:name">JAVA</span>, 
+            <span property="schema:name">Javascript</span>, <span property="schema:name">Python</span>, <span property="schema:name">MATLAB</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Semantic Web:</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">XML</span>, <span property="schema:name">DTD</span>, <span property="schema:name">XSD</span>, 
+            <span property="schema:name">XSLT/XSL</span>, <span property="schema:name">RDF/RDFa</span>
+        </span>
+    </p>
+    <p typeof="schema:DefinedTerm">
+        <b property="schema:name">Databases:</b> 
+        <span property="schema:hasDefinedTerm">
+            <span property="schema:name">SQL</span>, <span property="schema:name">Oracle</span>, <span property="schema:name">MySQL</span>, 
+            <span property="schema:name">PL/SQL</span>
+        </span>
+    </p>
+</div>
+<br><br>
+<div class="center">
+    <h2><u>Languages</u></h2>
+    <p typeof="schema:Language">
+        <b property="schema:name">French:</b> 
+        <span property="schema:proficiencyLevel">bilingual</span>
+    </p>
+    <p typeof="schema:Language">
+        <b property="schema:name">English:</b> 
+        <span property="schema:proficiencyLevel">bilingual</span>
+    </p>
+    <p typeof="schema:Language">
+        <b property="schema:name">Arabic:</b> 
+        <span property="schema:proficiencyLevel">native</span>
+    </p>
+</div>
+<br><br>
+<div class="center" typeof="schema:Organization">
+    <h2><u>Experience</u></h2>
+    <img class="fit-picture" src="../img/ird.png" alt="IRD" width="100" height="50" property="schema:image">
+    <p typeof="schema:WorkExperience">
+        <b property="schema:title">Software Engineering Apprentice</b> (10-2022 - present)
+        <p>
+            <i property="schema:employer" typeof="schema:Organization">
+                <span property="schema:name">Institut de Recherche pour le Développement IRD-UMMisco</span> - 
+                <span property="schema:location" typeof="schema:Place">
+                    <span property="schema:name">France</span>
+                </span>
+            </i>
+        </p>
+        <ul>
+            <li property="schema:description">Developing a web application for extracting data from ECG files either in xml or pdf format and integrating AI models for understanding, predicting, and detecting cardiovascular diseases.</li>
+        </ul>
+    </p>
+</div>
+<br><br>
+<div class="center">
+    <h2><u>Hobbies</u></h2>
+    <ul>
+        <p property="schema:hasInterest"><span property="schema:name">Writing</span></p>
+        <p property="schema:hasInterest"><span property="schema:name">Traveling</span></p>
+    </ul>
+</div>
+</body>
+</html>

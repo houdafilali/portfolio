@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/" version="XHTML+RDFa 1.0">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Houda Filali"/>
+    <meta name="keywords" content="cv, portfolio, semantic web"/>
+    <link rel="alternate" hreflang="ar" href="../arabe/index.html"/>
+    <link rel="alternate" hreflang="fr" href="../francais/index.html"/>
+    <title property="dc:title">Houda Filali Portfolio</title>
+    <link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li property="dc:title"><a href="#"><strong>Home</strong></a></li>
+                <li property="dc:title"><a href="page.html"><strong>Resume</strong></a></li>
+                <li><a href="../arabe/index.html"><img class="logo" src="../img/arabic.png" alt="arabic flag"/></a></li>
+                <li><a href="../francais/index.html"><img class="logo" src="../img/images.png" alt="french flag"/></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="center">
+       <p property="dc:description">My name is <span property="foaf:firstName">Houda</span>  <span property="foaf:lastName">Filali</span> and this is my portfolio where you will find information about me, my education, and my professional experiences.</p>
+
+       <p>I study computer science at <a typeof="foaf:Organization" rel="foaf:schoolHomepage" about="http://www.sup-galilee.univ-paris13.fr/" href="http://www.sup-galilee.univ-paris13.fr/"><span property="foaf:name">Sup Galilée</span></a>, an engineering school located in <span property="foaf:based_near">Villetaneuse</span>, France.</p><br><br>
+       <p>I am also a software engineering apprentice at <a typeof="foaf:Organization" rel="foaf:workplaceHomepage" about="https://www.ird.fr/" href="https://www.ird.fr/"><span property="foaf:name">Institut de Recherche pour le Développement IRD-UMMisco</span></a>, an international research organization specializing in science and development.</p><br>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2023 My Portfolio. All rights reserved. <span property="dc:creator dc:publisher">Houda Filali</span>
+            <a rel="foaf:mbox" href="mailto:hfilali428@gmail.com">
+                <img class="icone_footer" src="../img/mail.jpg" alt="mail logo" width="20" height="20"/>
+            </a>
+            <a rel="foaf:account" typeof="foaf:LinkdinAccount" about="" href="" target="_blank">
+                <img class="icone_footer" src="../img/linkdin.png" alt="linkdin logo" width="20" height="20"/>
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
