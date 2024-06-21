@@ -88,4 +88,13 @@
         ul {
             padding-left: 20px;
         }
+.education {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.education img {
+    margin-right: 10px;
+}
 
